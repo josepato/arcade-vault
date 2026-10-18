@@ -17,6 +17,9 @@ Arcade Vault — a platform for playing games online and competing for the highe
 
 No test runner is configured yet.
 
+## Skills
+Usa siempre /frontend-desing para diseñar interfaces de usuario
+
 ## Architecture
 
 - Next.js App Router (`app/` directory), TypeScript (strict), Tailwind CSS v4.
