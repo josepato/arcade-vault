@@ -61,6 +61,11 @@ body {
 
 button, input, select { font: inherit; color: inherit; }
 
+/* El preflight de Tailwind v4 resetea encabezados e inputs; el diseño del template
+   parte de los valores por defecto del navegador. Sin layer para ganarle al preflight. */
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+input { padding: 1px 2px; }
+
 a { color: inherit; text-decoration: none; }
 
 /* ===== background: perspective grid + scanlines + vignette ===== */
