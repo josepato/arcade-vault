@@ -8,7 +8,7 @@ export default function NotFound() {
       <p style={{ color: "var(--ink-dim)", marginBottom: 32 }}>
         La página que buscas no existe o fue retirada del Vault.
       </p>
-      <Link href="/" className="btn lg">VOLVER AL VAULT</Link>
+      <Link href="/biblioteca" className="btn lg">VOLVER AL VAULT</Link>
     </div>
   );
 }
